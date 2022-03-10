@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+
+        .lazy-img{
+            filter: blur(2px)
+        }
+        .section--1, .section--2, .section--3,.section--4{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+        table{ 
+            margin:auto; 
+            width: 90%; 
+            border-collapse: collapse;
+            border: 2px solid rgb(200,200,200);
+            border-spacing:2px;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            text-indent: initial
+        }
+        img{align-self: center}
+        td{ align-items: center}
+        h3{text-align: center}
+        p{  width: 70%;
+            text-align:start;
+            align-self: center
+        }
+        .demo{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position:absolute;
+            top:50px;
+            left:50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section--1">
+            <h1>Solar System Planets: Order of the 8 (or 9) Planets</h1>
+            <h2>Facts about our solar system's planets.</h2>
+            <img src="./pics/solar1-lazy.png"
+                data-src="./pics/solar1.png"
+                alt="pets"
+                class="lazy-img"
+            >
+        </div>
+        <div class="section--2">
+            <h1>Composition of the Solar System</h1>
+            <p>
+                Located at the centre of the solar system and influencing the motion of all the other 
+                bodies through its gravitational force is the Sun, which in itself contains more than 
+                99 percent of the mass of the system. The planets, in order of their distance outward 
+                from the Sun, are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. 
+                Four planets—Jupiter through Neptune—have ring systems, and all but Mercury and Venus 
+                have one or more moons. Pluto had been officially listed among the planets since it 
+                was discovered in 1930 orbiting beyond Neptune, but in 1992 an icy object was discovered 
+                still farther from the Sun than Pluto. Many other such discoveries followed, including 
+                an object named Eris that appears to be at least as large as Pluto. It became apparent 
+                that Pluto was simply one of the larger members of this new group of objects, collectively 
+                known as the Kuiper belt. Accordingly, in August 2006 the International Astronomical Union 
+                (IAU), the organization charged by the scientific community with classifying astronomical objects, 
+                voted to revoke Pluto’s planetary status and place it under a new classification called dwarf planet. 
+                For a discussion of that action and of the definition of planet approved by the IAU, see planet.
+            </p>
+            <table border="1" cells-spacing="0">
+                <h3> Data about the Planet of Our Solar System Planetary Facts Taken fro “Nasa’s Planetary Fast Sheet-Metric”</h3>
+                <tr>
+                    <th colspan="2"> </th>
+                    <th>Name </th>
+                    <th>Mars <br> (10<sup>24</sup>kg)</th>
+                    <th> Diameter <br> (km)</th>
+                    <th> Density <br> (kg/m<sup>3</sup>)</th>
+                    <th> Quality<br> (m/a<sup>2</sup>)</th>
+                    <th>Length of Day <br> (hours)</th>
+                    <th> Distance from Sun<br>(10<sup>5</sup>km)</th>
+                    <th> Mean Temperature<br> (*C) </th>
+                    <th> Number of Moons</th>
+                    <th> Notes</th>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="4">Terrestial Planets</td>
+                    <td>Mercury</td>
+                    <td>0.330</td>
+                    <td>4.879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>167</td>
+                    <td>0 </td>
+                    <td>closest to the Sun </td>
+                   
+                </tr>
+                <tr>
+                    <td>Venus</td>
+                    <td>4.87</td>
+                    <td>12.104</td>
+                    <td>5243</td>
+                    <td>8.9</td>
+                    <td>2802.2</td>
+                    <td>108.2</td>
+                    <td>464</td>
+                    <td>0</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td>Earth</td>
+                    <td>5.97</td>
+                    <td>12.756</td>
+                    <td>5514</td>
+                    <td>9.8</td>
+                    <td>24.0</td>
+                    <td>149.6</td>
+                    <td>15</td>
+                    <td>1</td>
+                    <td>our world</td>
+                  
+                </tr>
+                <tr>
+                    <td>Mars</td>
+                    <td>0.642</td>
+                    <td>6.792</td>
+                    <td>3933</td>
+                    <td>3.7</td>
+                    <td>24.7</td>
+                    <td>2227.9</td>
+                    <td>-65</td>
+                    <td>2</td>
+                    <td> the red Planet</td>
+                   
+                </tr>
+                <tr>
+                    <td rowspan="4">Jovian Planets
+                    </td>
+                    <td rowspan="2">Gas Glants
+                    </td>
+                    <td>Jupiter</td>
+                    <td>1898</td>
+                    <td>142.984</td>
+                    <td>1326</td>
+                    <td>23.1</td>
+                    <td>9.9</td>
+                    <td>778.6</td>
+                    <td>-110</td>
+                    <td>67</td>
+                    <td>the largest Planet</td>
+                    
+                </tr>
+                <tr>
+                    <td>Saturn</td>
+                    <td>568</td>
+                    <td>120.536</td>
+                    <td>687</td>
+                    <td>9.0</td>
+                    <td>10.7</td>
+                    <td>1433.5</td>
+                    <td>-140</td>
+                    <td>62</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Ice Glants
+                    </td>
+                    <td>Uranus</td>
+                    <td>86.8</td>
+                    <td>51.118</td>
+                    <td>1271</td>
+                    <td>8.7</td>
+                    <td>17.2</td>
+                    <td>2872.5</td>
+                    <td>-195</td>
+                    <td>27</td>
+                    <td></td>
+               
+                </tr>
+                <tr>
+                    <td>Neptune</td>
+                    <td>102</td>
+                    <td>49.528</td>
+                    <td>1638</td>
+                    <td>11.0</td>
+                    <td>16.1</td>
+                    <td>4495.1</td>
+                    <td>-200</td>
+                    <td>14</td>
+                    <td></td>
+                 
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">Dwarf Plants</td>
+                    <td>Plute</td> 
+                    <td>0.0148</td>
+                    <td>2.370</td>
+                    <td>2095</td>
+                    <td>0.7</td>
+                    <td>153.3</td>
+                    <td>5906.4</td>
+                    <td>-225</td>
+                    <td>5</td>
+                    <td> Declassified as a planet in 2005, but this remains controversial.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section--3">
+            <h1>Planets and Their Moons</h1>
+            <p>
+                The relatively small inner planets have solid surfaces, lack ring systems, 
+                and have few or no moons. The atmospheres of Venus, Earth, and Mars are composed
+                 of a significant percentage of oxidized compounds such as carbon dioxide. 
+                 Among the inner planets, only Earth has a strong magnetic field, which shields 
+                 it from the interplanetary medium. The magnetic field traps some of the 
+                 electrically charged particles of the interplanetary medium inside a region 
+                 around Earth known as the magnetosphere. Heavy concentrations of these 
+                 high-energy particles occur in the Van Allen belts in the inner part of the 
+                 magnetosphere.
+            </p>
+            <img src="./pics/solar2-lazy.png"
+            data-src="./pics/solar2.png"
+            alt="pets"
+            class="lazy-img"
+            >
+        </div>
+        <div class="section--4">
+            <h1>Orbits</h1>
+            <p>
+                All the planets and dwarf planets, the rocky asteroids, and the icy bodies in the Kuiper belt move 
+                around the Sun in elliptical orbits in the same direction that the Sun rotates. This motion is termed 
+                prograde, or direct, motion. Looking down on the system from a vantage point above Earth’s North Pole, 
+                an observer would find that all these orbital motions are in a counterclockwise direction. In striking 
+                contrast, the comet nuclei in the Oort cloud are in orbits having random directions, corresponding 
+                to their spherical distribution around the plane of the planets.
+            </p>
+            <img src="./pics/solar3-lazy.png"
+            data-src="./pics/solar3.png"
+            alt="pets"
+            class="lazy-img"
+            >
+        </div>
+    
+      
+    </div>
+
+
+<script type="text/JavaScript" src="func.js"></script>
+</body>
+</html>
